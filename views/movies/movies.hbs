@@ -1,0 +1,11 @@
+<h2>Movies List</h2>
+<h2>Celebrities list</h2>
+<ul>
+    {{#each allMovies}}
+    <li>title: {{title}}</li>
+    <a href="/movies/{{id}}">see details &rarr;</a>
+    {{/each}}
+
+</ul>
+<a href="/">&larr; Back</a>
+<a href="/movies/create">Create a new movie entry</a>
